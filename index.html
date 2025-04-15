@@ -1,159 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Bhavya Sareen - Cosmic Entrepreneur</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0a0f2c; /* Deep Navy Blue */
-      color: #e0e0e0;
-      padding: 40px 20px;
-      line-height: 1.7;
-    }
-    header {
-      text-align: center;
-      padding-bottom: 30px;
-      border-bottom: 2px solid #444;
-    }
-    h1 {
-      font-size: 2.8em;
-      color: #ffcc00;
-      margin-bottom: 10px;
-    }
-    h3 {
-      font-weight: normal;
-      font-size: 1.2em;
-      color: #bbb;
-    }
-    section {
-      margin-top: 40px;
-    }
-    h2 {
-      color: #ffa500;
-      border-left: 5px solid #ffa500;
-      padding-left: 15px;
-      font-size: 1.8em;
-      margin-bottom: 10px;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    li {
-      margin-bottom: 8px;
-    }
-    .link {
-      color: #66ccff;
-      text-decoration: none;
-    }
-    .tag {
-      display: inline-block;
-      background: #1c274e;
-      color: #ffc107;
-      padding: 5px 10px;
-      border-radius: 20px;
-      margin: 5px 5px 5px 0;
-      font-size: 0.9em;
-    }
-    .quote {
-      font-style: italic;
-      color: #aaa;
-      border-left: 3px solid #555;
-      padding-left: 15px;
-      margin: 15px 0;
-    }
-    .highlight {
-      color: #00d9ff;
-      font-weight: bold;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavya Sareen | Cosmic Entrepreneur</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-  <header>
-    <h1>Bhavya Sareen</h1>
-    <h3>Cosmic Entrepreneur | Astrologer | Diamond Artisan | Digital Visionary</h3>
-    <p>Email: <span class="highlight">Taurusdiamonds33@gmail.com</span> | Location: New Delhi | 
-      <a class="link" href="https://www.linkedin.com/in/bhavya-sareen-bb869123a" target="_blank">LinkedIn</a>
-    </p>
-  </header>
-
-  <section>
-    <h2>Professional Summary</h2>
-    <p>A multidimensional creator blending <span class="highlight">spiritual sciences</span> with the material world — Founder of Taurus Diamonds, CEO of Occult Verse, and a mystic-marketer. Fluent in modern branding, ancient wisdom, and the digital future.</p>
-    <p class="quote">“Where Tantra meets Tech, and Luxury meets Light.”</p>
-  </section>
-
-  <section>
-    <h2>Skills</h2>
-    <div>
-      <span class="tag">Astrology</span>
-      <span class="tag">Numerology</span>
-      <span class="tag">Lab-Grown Diamond Designing</span>
-      <span class="tag">Tantra & Occult Sciences</span>
-      <span class="tag">Trading (F&O, Crude, NSE)</span>
-      <span class="tag">Creative Marketing</span>
-      <span class="tag">Entrepreneurship</span>
-      <span class="tag">Spiritual Branding</span>
-      <span class="tag">Advanced Canva</span>
+    <div class="noise-overlay"></div>
+    <div class="cosmic-particles"></div>
+    
+    <div class="loading-screen">
+        <div class="loader-container">
+            <div class="loader-ring"></div>
+            <div class="loader-text">Initializing Cosmic Interface</div>
+            <div class="loader-progress">
+                <div class="progress-bar"></div>
+            </div>
+        </div>
     </div>
-  </section>
 
-  <section>
-    <h2>Education</h2>
-    <ul>
-      <li>10th - Prudence School, 84%</li>
-      <li>12th - Prudence School, 79.8%</li>
-      <li>Bachelor of Arts - Satyawati College, University of Delhi</li>
-      <li>BBADBE - Indian Institute of Management, Bangalore</li>
-    </ul>
-  </section>
+    <header class="main-header">
+        <div class="logo-container">
+            <div class="logo">BS</div>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#spiritual" class="nav-link">Spiritual</a></li>
+                <li><a href="#vision" class="nav-link">Vision</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <section>
-    <h2>Projects & Research</h2>
-    <ul>
-      <li><span class="highlight">AstroMatch Affirmations</span> – Personalized affirmation brand combining astrology, tarot & numerology</li>
-      <li>Over 50+ research documents in <span class="highlight">karmic astrology, dasha systems, and tantric techniques</span></li>
-      <li>Developing a <span class="highlight">luxury astrology-based eCommerce ecosystem</span> via Taurus Diamonds</li>
-    </ul>
-  </section>
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="glitch-text" data-text="Bhavya Sareen">Bhavya Sareen</h1>
+                <div class="title-container">
+                    <div class="title-slider">
+                        <span>Cosmic Entrepreneur</span>
+                        <span>Astrologer</span>
+                        <span>Diamond Artisan</span>
+                        <span>Digital Visionary</span>
+                    </div>
+                </div>
+                <p class="hero-description">Where Tantra meets Tech, and Luxury meets Light.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="cta-button primary">Connect</a>
+                    <a href="#projects" class="cta-button secondary">Explore Work</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="cosmic-sphere"></div>
+            </div>
+        </section>
 
-  <section>
-    <h2>Work Experience</h2>
-    <ul>
-      <li><strong>CEO & Founder</strong> – Taurus Diamonds (2024–Present)</li>
-      <li><strong>CEO & Senior Astrologer</strong> – Occult Verse (2022–Present)</li>
-      <li><strong>Intern</strong> – Devansh Enterprises (Product Designing | 2019–2025)</li>
-    </ul>
-  </section>
+        <section id="about" class="about-section">
+            <h2 class="section-title">Professional Summary</h2>
+            <div class="about-content">
+                <p>A multidimensional creator blending spiritual sciences with the material world — Founder of Taurus Diamonds, CEO of Occult Verse, and a mystic-marketer. Fluent in modern branding, ancient wisdom, and the digital future.</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:Taurusdiamonds33@gmail.com">Taurusdiamonds33@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>New Delhi</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="#">LinkedIn Profile</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <section>
-    <h2>Certifications</h2>
-    <ul>
-      <li>Google Digital Marketing Certified Mastering the Digital Cosmos A globally recognized program that empowered me with strategic insight into SEO, PPC, and content funnels-fueling Taurus Diamonds' online-only luxury model with data-driven precision and creative branding magic.</li>
-      <li><span class="highlight">Lunar Astro 2-Year Diploma CourseDecoding Karma, Reading Destiny
+        <section id="skills" class="skills-section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-star"></i></div>
+                    <h3>Astrology</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-sort-numeric-up"></i></div>
+                    <h3>Numerology</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="far fa-gem"></i></div>
+                    <h3>Lab-Grown Diamond Designing</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-om"></i></div>
+                    <h3>Tantra & Occult Sciences</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Trading (F&O, Crude, NSE)</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>Creative Marketing</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-briefcase"></i></div>
+                    <h3>Entrepreneurship</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-spa"></i></div>
+                    <h3>Spiritual Branding</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Advanced Canva</h3>
+                </div>
+            </div>
+        </section>
 
-An intense two-year journey into advanced Vedic Astrology, decoding karmic layers through divisional charts, D30-D60 analysis, and deep spiritual intuition. Certified practitioner in astro-healing, chart analysis, and intuitive guidance.</li>
-      <li>Advanced Astrology – Astro Arun Pandit Jyotish as a Weapon of Clarity
+        <section id="education" class="education-section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>BBADBE</h3>
+                        <h4>Indian Institute of Management, Bangalore</h4>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Bachelor of Arts</h3>
+                        <h4>Satyawati College, University of Delhi</h4>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>12th Standard</h3>
+                        <h4>Prudence School</h4>
+                        <p class="timeline-score">79.8%</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>10th Standard</h3>
+                        <h4>Prudence School</h4>
+                        <p class="timeline-score">84%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-A deep dive into predictive astrology with focus on practical remedies, parashari principles, and chart dissection techniques. Built razor-sharp skills in nakshatra logic, kundli balancing, and counseling with astrological depth</li>
-      <li>NISM Series II Certification – Mutual Funds Wealth Alchemy through Financial Astrology Certified in structured financial advisory with mutual funds, combining market logic with planetary influences for unique financial forecasting. Perfect blend of left-brain analytics and right-brain intuition</li>
-      <li>NSE Certified – Futures & Options Trading Techniques Futures, Options & Celestial Trends Advanced training in the dynamics of Futures & Options trading. Applied this knowledge with astrology to build a unique style of financial prediction-balancing technicals with planetary dashas and transits.</li>
-    </ul>
-  </section>
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">Projects & Research</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-magic"></i></div>
+                    <h3>AstroMatch Affirmations</h3>
+                    <p>Personalized affirmation brand combining astrology, tarot & numerology</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-book-open"></i></div>
+                    <h3>Karmic Astrology Research</h3>
+                    <p>Over 50+ research documents in karmic astrology, dasha systems, and tantric techniques</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-gem"></i></div>
+                    <h3>Luxury Astrology eCommerce</h3>
+                    <p>Developing a luxury astrology-based eCommerce ecosystem via Taurus Diamonds</p>
+                </div>
+            </div>
+        </section>
 
-  <section>
-    <h2>Spiritual Expertise</h2>
-    <p>Practitioner of <span class="highlight">Tantra, Dasha Interpretation, and Divisional Chart Precision</span>. Experienced in Vimsottari Dasha, D1-D60 deep analysis, mantra healing, and karmic mapping. </p>
-  </section>
+        <section id="experience" class="experience-section">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>CEO & Founder</h3>
+                        <h4>Taurus Diamonds</h4>
+                        <p class="timeline-period">2024–Present</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>CEO & Senior Astrologer</h3>
+                        <h4>Occult Verse</h4>
+                        <p class="timeline-period">2022–Present</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Intern</h3>
+                        <h4>Devansh Enterprises</h4>
+                        <p class="timeline-period">2019–2025</p>
+                        <p class="timeline-details">Product Designing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <section>
-    <h2>Vision</h2>
-    <p>To create a global brand where <span class="highlight">wealth (paisa), sensuality (kaam), and spiritual siddhi</span> are not separate goals — but one integrated lifestyle.</p>
-  </section>
+        <section id="certifications" class="certifications-section">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-header">
+                        <h3>Google Digital Marketing Certified</h3>
+                        <span class="certification-tag">Mastering the Digital Cosmos</span>
+                    </div>
+                    <p>A globally recognized program that empowered me with strategic insight into SEO, PPC, and content funnels-fueling Taurus Diamonds' online-only luxury model with data-driven precision and creative branding magic.</p>
+                </div>
+                
+                <div class="certification-card">
+                    <div class="certification-header">
+                        <h3>Lunar Astro 2-Year Diploma Course</h3>
+                        <span class="certification-tag">Decoding Karma, Reading Destiny</span>
+                    </div>
+                    <p>An intense two-year journey into advanced Vedic Astrology, decoding karmic layers through divisional charts, D30-D60 analysis, and deep spiritual intuition. Certified practitioner in astro-healing, chart analysis, and intuitive guidance.</p>
+                </div>
+                
+                <div class="certification-card">
+                    <div class="certification-header">
+                        <h3>Advanced Astrology – Astro Arun Pandit</h3>
+                        <span class="certification-tag">Jyotish as a Weapon of Clarity</span>
+                    </div>
+                    <p>A deep dive into predictive astrology with focus on practical remedies, parashari principles, and chart dissection techniques. Built razor-sharp skills in nakshatra logic, kundli balancing, and counseling with astrological depth.</p>
+                </div>
+                
+                <div class="certification-card">
+                    <div class="certification-header">
+                        <h3>NISM Series II Certification – Mutual Funds</h3>
+                        <span class="certification-tag">Wealth Alchemy through Financial Astrology</span>
+                    </div>
+                    <p>Certified in structured financial advisory with mutual funds, combining market logic with planetary influences for unique financial forecasting. Perfect blend of left-brain analytics and right-brain intuition.</p>
+                </div>
+                
+                <div class="certification-card">
+                    <div class="certification-header">
+                        <h3>NSE Certified – Futures & Options Trading Techniques</h3>
+                        <span class="certification-tag">Futures, Options & Celestial Trends</span>
+                    </div>
+                    <p>Advanced training in the dynamics of Futures & Options trading. Applied this knowledge with astrology to build a unique style of financial prediction-balancing technicals with planetary dashas and transits.</p>
+                </div>
+            </div>
+        </section>
 
+        <section id="spiritual" class="spiritual-section">
+            <h2 class="section-title">Spiritual Expertise</h2>
+            <div class="spiritual-content">
+                <div class="spiritual-text">
+                    <p>Practitioner of Tantra, Dasha Interpretation, and Divisional Chart Precision. Experienced in Vimsottari Dasha, D1-D60 deep analysis, mantra healing, and karmic mapping.</p>
+                </div>
+                <div class="spiritual-visual">
+                    <div class="mandala-container">
+                        <div class="mandala"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="vision" class="vision-section">
+            <h2 class="section-title">Vision</h2>
+            <div class="vision-content">
+                <p>To create a global brand where wealth (paisa), sensuality (kaam), and spiritual siddhi are not separate goals — but one integrated lifestyle.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">BS</div>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#spiritual">Spiritual</a>
+                <a href="#vision">Vision</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:Taurusdiamonds33@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/bhavya-sareen-bb869123a/" target="_blank" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2024 Bhavya Sareen. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(() => {
+                document.querySelector('.loading-screen').classList.add('fade-out');
+                setTimeout(() => {
+                    document.querySelector('.loading-screen').style.display = 'none';
+                }, 500);
+            }, 2500);
+        });
+    </script>
 </body>
 </html>
